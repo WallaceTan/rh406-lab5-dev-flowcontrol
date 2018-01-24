@@ -1,0 +1,7 @@
+ansible-playbook --syntax-check playbook.yml
+ansible-playbook playbook.yml
+ansible all -a "yum list installed mariadb-bench mariadb-libs mariadb-test"
+ansible all -a "id db_user"
+ansible all -a "id db_admin"
+lab task-control-flowcontrol grade
+lab task-control-flowcontrol cleanup
